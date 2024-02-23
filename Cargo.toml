@@ -1,0 +1,13 @@
+[package]
+name = "ticktick"
+version = "0.0.0-alpha"
+edition = "2021"
+license = "Apache-2.0"
+readme = "README.md"
+include = ["src", "Cargo.toml", "LICENSE", "README.md"]
+description = "ticktick"
+authors = ["Anubis"]
+repository = "https://github.com/lazyanubis/ticktick"
+
+[dependencies]
+croner = "2"
